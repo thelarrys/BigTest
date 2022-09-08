@@ -56,7 +56,24 @@
     }
 
     header {
+      display: flex;
+      align-items: center;
+    }
 
+    .socials {
+      margin-left: auto;
+    }
+
+    .socials a {
+      display: inline-block;
+      margin-left: 16px;
+    }
+
+    main {
+      margin-top: 250px;
+      text-align: center;
+      padding: 0;
+    }
 
     .button {
       display: inline-block;
@@ -76,10 +93,61 @@
       letter-spacing: 0.1rem;
     }
 
-
+    .text:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
   </style>
 
+  <body>
+    <header class="container">
+      <a href="">
+        <img
+          src="icon400.png"
+          alt=" DAO"
+          width="120"
+          height="120"
+        />
+      </a>
 
+      <div class="socials">
+        <a
+          rel="noopener" 
+          href="https://twitter.com/PolariumDAO" target="_blank">
+          <img
+            src="twitterlogo.png"
+            alt="twitter"
+            width="40"
+            height="40"
+            rel="noopener"
+          />
+        </a>
+        <a 
+          rel="noopener" 
+          href="https://t.co/Yh8H3qnVl6" target="_blank">
+          <img
+            src="discordlogo.png"
+            alt="discord"
+            width="40"
+            height="40"
+          />
+        </a>
+        <a
+         rel="noopener"
+         href="https://mirror.xyz/0xd2393D732672CB67dfbA7116A2053A9501337386/X9tBo_VnYBo7qU-DDyspUlchk4PtFU9lNp8rGz6chOQ" target="_blank">
+          <img
+            src="mirrorlogo.png"
+            alt="mirror"
+            width="35"
+            height="40"
+          />
+        </a>
+      </div>
+    </header>
 
     <main class="container">
       <div class="button">
